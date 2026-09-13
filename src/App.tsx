@@ -181,6 +181,9 @@ export default function App() {
           <div className="queue-head">
             <h1>申込フォルダ</h1>
             <p>読取専用 · fileId / 更新日時で処理済み管理</p>
+            <p className="demo-hint">
+              デモ操作: 「モリ製作所」選択 → 上部「Drive を検出」で待機〜自動解析を確認
+            </p>
           </div>
           <ul className="queue-list">
             {cases.map((c) => {

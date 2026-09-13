@@ -175,6 +175,15 @@ code {
   font-size: 0.75rem;
 }
 
+.demo-hint {
+  margin-top: 0.55rem !important;
+  padding: 0.45rem 0.5rem;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink) !important;
+  line-height: 1.45;
+}
+
 .queue-list {
   list-style: none;
   margin: 0;
